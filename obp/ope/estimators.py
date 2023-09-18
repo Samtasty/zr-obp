@@ -979,7 +979,7 @@ class DoublyRobust(BaseOffPolicyEstimator):
 
         n = action.shape[0]
         iw = action_dist[np.arange(n), action, position] / pscore
-        # weight clipping
+        # weight clipping   
         if isinstance(iw, np.ndarray):
             iw = np.minimum(iw, self.lambda_)
 
