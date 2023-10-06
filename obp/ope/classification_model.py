@@ -53,7 +53,7 @@ class ImportanceWeightEstimator(BaseEstimator):
     References
     -----------
     Arjun Sondhi, David Arbour, and Drew Dimmery
-    "Balanced Off-Policy Evaluation in General Action Spaces.", 2020.
+    "Balanced Policy Evaluation in General Action Spaces.", 2020.
 
     """
 
